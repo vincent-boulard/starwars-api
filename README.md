@@ -1,5 +1,4 @@
 Pour faire fonctionner le htaccess en localhost il faut ajouter ça au virtual host
-
 <pre><code>
 &lt;Directory "/chemin/vers/votre/repository/"&gt;
 	Options Indexes FollowSymLinks Multiviews
@@ -10,7 +9,6 @@ Pour faire fonctionner le htaccess en localhost il faut ajouter ça au virtual h
 </code></pre>
 
 htaccess : 
-
 <pre><code>
 Options +FollowSymlinks
 
