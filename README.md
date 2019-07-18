@@ -8,3 +8,16 @@ Pour faire fonctionner le htaccess en localhost il faut ajouter ça au virtual h
 	Options -Indexes
 &lt;/Directory&gt;
 </code></pre>
+
+htaccess : 
+
+<pre><code>
+Options +FollowSymlinks
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php?url=$0 [NC,L]
+</code></pre>
