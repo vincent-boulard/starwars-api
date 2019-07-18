@@ -1,3 +1,5 @@
+Utilisation de l'api starwars : https://swapi.co/
+
 Pour faire fonctionner le htaccess en localhost il faut ajouter ça au virtual host
 <pre><code>
 &lt;Directory "/chemin/vers/votre/repository/"&gt;
